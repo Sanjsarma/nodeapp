@@ -26,6 +26,8 @@ module.exports={
         case '/login':
             renderHTML('./login.html',res);
             break;
+        case '/about':
+            renderHTML('./about.html',res);
         default:
             res.writeHead(404);
             res.write('Route not defined!!!');
