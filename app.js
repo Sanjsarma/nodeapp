@@ -28,6 +28,7 @@ module.exports={
             break;
         case '/about':
             renderHTML('./about.html',res);
+            break;
         default:
             res.writeHead(404);
             res.write('Route not defined!!!');
